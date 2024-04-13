@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: whitesmoke;
+}
+
+.App{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.title{
+    width: 100%;
+    font-size: 22px;
+    margin:0;
+    letter-spacing: 2px;
+    color:rgb(37, 37, 37);
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #5e5e5e;
+    width: 50%;
+    margin:1.5rem auto;
+    padding: 1rem;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+}
+
+.news-image{
+    width: 50%;
+    margin: 0.5rem 0;
+}
+
+.news-image img{
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
+}
+
+.item h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    padding:1px 10px;
+    text-transform: capitalize;
+    color:rgb(39, 39, 39);
+}
+
+.item h4{
+    margin:0;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+.item h4 spam{
+    color:rgb(23, 117, 11);
+    font-weight: 700;
+}
+
+.item p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(59, 59, 59);
+    font-weight: 500;
+    text-align: center;
+    width: 80%;
+}
+
+.item a{
+    text-decoration:none;
+    color:rgb(69, 69, 255);
+    font-size: 15px;
+}
+
+.item a:hover{
+    color:rgb(0, 0, 167);
+}
+
+.pag-cont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding:30px 0 20px;
+}
+
+.pag-cont button{
+    padding:5px 30px;
+    font-size: 1rem;
+    font-weight: 700;
+    color:white;
+    background-color: #5e5e5e;
+}
