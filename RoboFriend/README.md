@@ -1,8 +1,21 @@
-# React + Vite
+## <p align="center">ROBOFRIEND PROJECT</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview -
+- Developed using React JS for the frontend functionality.
+- Employed Tailwind CSS for crafting sleek and responsive user interfaces.
 
-Currently, two official plugins are available:
+## Features -
+- Beautiful UI
+- Responsive Design
+- Search Bar
+- Component-Based
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  
+## Description -
+- This project utilizes the 'https://jsonplaceholder.typicode.com/users' API to fetch user information such as name and email.
+  Additionally, it leverages the 'https://robohash.org/' API to retrieve random images.
+- A card component has been implemented to create visually appealing cards, each containing a robot image and user details.
+- A search bar functionality has been integrated, enabling users to filter through the displayed user cards. Only the cards corresponding to 
+  the searched user will be shown within the viewport.
+
+
