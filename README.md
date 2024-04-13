@@ -1,2 +1,2 @@
 # my_projects
-This Repository will contain my projects.
+This repository showcases projects from my journey in web development.
