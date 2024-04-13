@@ -2,5 +2,5 @@
 
 This repository showcases projects from my journey in web development.
 
-## List Of Project-
+## List Of Projects-
 - ROBOFRIEND
